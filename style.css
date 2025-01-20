@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* chrome */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fed0e3;
+    overflow: hidden;
+}
+
+
+.scrapone img {
+    position: absolute;
+    top: -580px;
+    left: -520px;
+    rotate: 4deg;
+    pointer-events: none
+}
+.scraponee img {
+    position: absolute;
+    top: -600px;
+    left: -520px;
+    rotate: 4deg;
+    pointer-events: none
+}
+.introtxt img {
+    position: absolute;
+    width: 80%;
+    left: 350px;
+    top: 10px;
+    pointer-events: none
+}
+
+.ptone img {
+    position: absolute;
+    width: 70%;
+    left: -250px;
+    top: 300px;
+    pointer-events: none
+}
+.final img{
+    pointer-events: none;
+}
+.pttwo img {
+    position: absolute;
+    width: 70%;
+    top: -100px;
+    right: -500px;
+    pointer-events: none
+}
+
+.four img {
+    pointer-events: none;
+}
+
+.notepad img {
+    position: absolute;
+    width: 80%;
+    left: 350px;
+    top: 50px;
+    pointer-events: none
+}
+
+.scraptwo img {
+    position: absolute;
+    bottom: -680px;
+    right: -520px;
+    rotate: 5deg;
+    pointer-events: none
+}
+
+.hearts img {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    pointer-events: none;
+}
+
+.heartss img {
+    position: absolute;
+    width: 50%;
+    top: -50px;
+    left: -400px;
+    pointer-events: none;
+}
+
+.heartsss img {
+    position: absolute;
+    width: 50%;
+    bottom: -80px;
+    right: -380px;
+    pointer-events: none;
+}
+
+.mems img {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 70%;
+    pointer-events: none;
+}
+
+.newballoons img {
+    position: absolute;
+    top: -150px;
+    right: -490px;
+    width: 60%;
+    pointer-events: none;
+}
+
+.newballooons img {
+    position: absolute;
+    bottom: -200px;
+    left: -650px;
+    width: 90%;
+    pointer-events: none;
+}
+
+.ptryone img {
+    position: absolute;
+    top: 300px;
+    left: -340px;
+    width: 70%;
+    pointer-events: none;
+}
+
+.twoheaarts img {
+    position: absolute;
+    width: 30%;
+    top: 100px;
+    left: 50px;
+    pointer-events: none;
+}
+
+.balloon img {
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    pointer-events: none;
+}
+
+.balloonn img {
+    position: absolute;
+    left: 720px;
+    top: -150px;
+    pointer-events: none;
+}
+
+/* Cool Buttons */
+/* home */
+.buttons {
+    position: absolute;
+    top: 650px;
+    left: 880px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Mulish;
+}
+
+.buttonss {
+    position: absolute;
+    top: 850px;
+    left: 880px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Mulish;
+}
+
+.buttonsss {
+    position: absolute;
+    top: 800px;
+    left: 1150px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Mulish;
+}
+
+.buttonssss {
+    position: absolute;
+    top: 800px;
+    left: 720px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Mulish;
+}
+
+.buttonhomespan {
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+}
+
+.buttonhomespan a {
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+}
+
+.buttonhomespan a::before,
+.buttonhomespan a::after {
+    position: absolute;
+    content: "Back";
+    z-index: 0;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #e95482;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body.dark .buttonhomespan a::before,
+body.dark .buttonhomespan a::after {
+    border-color: #fff;
+}
+
+.buttonhomespan a::before {
+    color: #fff;
+    background: #e95482;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+
+
+.buttonhomespan a::after {
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+
+
+.buttonhomespan a:hover {
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
+/* about */
+.buttonaboutspan {
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+}
+
+.buttonaboutspan a {
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+}
+
+.buttonaboutspan a::before,
+.buttonaboutspan a::after {
+    position: absolute;
+    content: "Next";
+    z-index: 0;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #e95482;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+
+.buttonaboutspan a::before {
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+
+
+.buttonaboutspan a::after {
+    color: #fff;
+    background: #e95482;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+
+
+.buttonaboutspan a:hover {
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.hidden {
+    visibility: hidden;
+}
