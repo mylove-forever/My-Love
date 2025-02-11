@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="intro-message">So, I’ve been thinking… would you do me the honor of being my Valentine this year? I mean, you’ve already stolen my heart, but I figured I should still ask properly.</h1>
+        <div class="slider-container">
+            <input type="range" min="0" max="100" value="0" class="slider" id="slider" oninput="revealQuestion()">
+            <p id="slider-text">Slide to find out ➡️</p>
+        </div>
+        <div class="question hidden" id="question">
+            <h2>Will you be my Valentine?</h2>
+            <button class="yes-button" onclick="window.location.href='yes_page.html'">Yes ❤️</button>
+            <button class="yes-button" onclick="window.location.href='yes_page.html'">Of Course 💕</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

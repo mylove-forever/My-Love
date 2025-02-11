@@ -1,0 +1,77 @@
+body {
+  background-color: #ffe4e1;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-message {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #d6336c;
+}
+
+.slider-container {
+  margin: 20px 0;
+}
+
+.slider {
+  width: 80%;
+  appearance: none;
+  height: 15px;
+  background: #f8bbd0;
+  outline: none;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #d6336c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#slider-text {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d6336c;
+}
+
+.question {
+  margin-top: 20px;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.yes-button {
+  padding: 10px 20px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.yes-button:hover {
+  background-color: #ad1457;
+}
