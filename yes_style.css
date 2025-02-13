@@ -1,0 +1,150 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Concert One");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+/* 🌸 General Styling */
+body {
+    background-color: #faf3f0; /* Soft warm background */
+    font-family: Itim;
+    text-align: center;
+    padding: 20px;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.LatoTitle {
+    font-family: Concert One;
+}
+
+/* 🌸 Layout Structure */
+.page-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Left & Right Side Styling */
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left {
+    align-items: flex-end;
+}
+
+.right {
+    align-items: flex-start;
+}
+
+/* 📦 Middle Section (Main Container) */
+.container {
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* 🌟 Smooth Fade-In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ❤️ Love Note */
+.love-note {
+    font-size: 1.4em;
+    color: #9b2226; /* Deep romantic red */
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffe6e6; /* Soft warm pink */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌸 Poetry & Compliment Boxes */
+.box {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 250px;
+    text-align: center;
+}
+
+/* ✨ Compliments (Soft Muted Colors) */
+.compliment {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: #fff; 
+}
+
+/* 🎶 Poetry (Warm Pastels) */
+.poetry {
+    background: #ff6c8f; 
+    color: #fff; 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* 🌸 Hover Effect */
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* 💖 Hidden Image Surprise */
+.secret-heart {
+    font-size: 1.2em;
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.secret-heart:hover {
+    background: linear-gradient(45deg, #ff4f79, #ff5e9c);
+    transform: scale(1.05);
+}
+
+#secret-message {
+    display: none;
+    margin-top: 15px;
+    font-size: 1.3em;
+    color: #9b2226;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.secret-image {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* ❤️ Button to 1000 Reasons */
+.reasons-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 18px;
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.reasons-button:hover {
+    background: linear-gradient(45deg, #ff4f79, #ff5e9c);
+    transform: scale(1.05);
+}
+.checklst {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
